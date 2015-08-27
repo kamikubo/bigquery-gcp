@@ -4,7 +4,7 @@
 # This image will run nginx, fluentd and bigquery plugin to send access log to BigQuery.
 #
 
-FROM ubuntu:14.04
+FROM ubuntu:12.04
 
 # environment
 ENV DEBIAN_FRONTEND noninteractive
